@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshan's Fitness </title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+
+    
+    body{
+        margin: 0px;
+        padding: 0px ;
+        background: url('img/bg.jpg');
+        /* height: 1000px; */
+        font-family: 'Edu NSW ACT Foundation', cursive;
+    }
+    .left-side-text{
+        font-size: 13px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+
+    }
+    .left{
+        
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        
+        display: inline-block;
+    }
+
+    .left img{
+        
+        width: 100px;
+       
+
+    }
+    .mid{
+        border-color: red;
+        display: block;
+        width: 50%;
+        margin: 20px ;
+        margin-left: 30%;
+    }
+    .right{
+        position: absolute;
+        right: 27px;
+        top: 20px;
+       
+        display: inline-block;
+
+    }
+
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    .navbar li a{
+        padding-left: 20px;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .navbar li a.active, .navbar li a:hover {
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .btn {
+        background-color: rgb(14, 12, 12);
+        color: white;
+        margin-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        cursor: pointer;
+        font-family: 'Edu NSW ACT Foundation', cursive;
+
+    }
+
+    .btn:hover{
+        background-color: rgb(51, 49, 49);
+    }
+
+    .container{
+    border: 2px solid;
+    color: white;
+    width: 497px;
+    margin-top: 99px;
+    margin-left: 9px;
+    padding: 12px;
+    border-radius: 27px;
+    border-color: white;
+        
+    }
+
+    
+    .form-group input{
+        text-align: center;
+    font-size: 16px;
+    border: 2px solid black;
+    width: 270px;
+    padding: 6px;
+    margin: 3px;
+    border-radius: 25px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    margin-left: 85px;
+    }
+       
+    .form-group button {
+        margin-top: 13px;
+    margin-left: 90px;
+    border-radius: 27px;
+    width: 272px
+
+;
+    }
+    .container h2 {
+        text-align: center;
+    }
+    
+ 
+</style>
+<body>
+   <header>
+
+    <div class="left">
+       <img src="img/mylogo.jpg" alt="Darshan Fitness Logo"> 
+       <div class="left-side-text">
+        Darshan's Fitness
+       </div>
+    </div>
+
+    <div class="mid">
+
+       <ul class="navbar">
+        <li><a  href="#" class="active" >Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Fitness Calculator</a></li>
+        <li><a href="#">Contact Us</a></li>
+       </ul>
+    </div>
+
+    <div class="right">
+        <button class="btn">
+            Call Us
+        </button>
+        
+        <button class="btn">
+            Register
+        </button>
+    </div>
+
+   </header>
+
+   <div class="container">
+    <h2>Join the best Gym of Pune now!</h2>
+
+    <form action="noaction.php">
+       
+        <div class="form-group">
+            <input type="text" placeholder="Enter your Name ">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Enter your Age ">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Enter your Gender ">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Enter your Locality ">
+        </div>
+
+        <div class="form-group">
+            <button class="btn">
+                Submit
+            </button>
+        </div>
+        
+
+
+    </form>
+
+   
+
+   </div>
+</body>
+</html>
